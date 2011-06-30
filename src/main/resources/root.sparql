@@ -1,0 +1,7 @@
+select distinct ?subject (owl:Class as ?type) (rdfs:subClassOf as ?predicate)
+	where {
+		?subject rdf:type owl:Class .
+		optional { ?subject rdfs:subClassOf ?x } .
+		filter (!bound(?x)) .
+	}
+order by ?subject

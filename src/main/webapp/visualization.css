@@ -1,0 +1,31 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+text.node {
+	fill: #333;
+	stroke: none;
+	font-size: 10px;
+	font-family: Verdana;
+	pointer-events: none;
+}
+	
+line.link {
+  stroke-opacity: .6;
+  pointer-events: none;
+}
+
+polyline.link {
+  stroke-opacity: .6;
+  fill: #999;
+  pointer-events: none;
+}
+
+path.nodeActions {
+	fill: #ff9896;
+	fill-opacity: .5;
+	stroke-opacity: .5;
+	stroke: #d62728;
+	stroke-width: 0px;
+}

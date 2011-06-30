@@ -1,0 +1,16 @@
+{
+	"nodes": [
+		{"label": "Node_1"},
+		{"label": "Node_2"},
+		{"label": "Node_3"},
+		{"label": "Node_4"},
+		{"label": "Node_5"},
+		{"label": "Node_6"},
+		{"label": "Node_7"},
+		{"label": "Node_8"}
+	],
+	"links": [
+		{"source": 0, "target": 1},
+		{"source": 1, "target": 2}
+	]
+}
